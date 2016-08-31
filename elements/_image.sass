@@ -10,14 +10,11 @@ $dimensions: 32 128
   // Ratio
   &.is-square,
   &.is-1by1,
+    padding-top: 100%
     img
       +overlay
       height: 100%
       width: 100%
-  &.is-square,
-  &.is-1by1
-    padding-top: 100%
-  // Sizes
   @each $dimension in $dimensions
     &.is-#{$dimension}x#{$dimension}
       height: $dimension * 1px
