@@ -1,0 +1,46 @@
+.table
+  background-color: $white
+  color: $text-strong
+  margin-bottom: 20px
+  width: 100%
+  td,
+  th
+    border: 1px solid $border
+    border-width: 1px
+    padding: 8px 10px
+    vertical-align: top
+    // Modifiers
+    &.is-icon
+      padding: 5px
+      text-align: center
+      white-space: nowrap
+      width: 1%
+      .fa
+        +fa(21px, 24px)
+      &.is-link
+        padding: 0
+        & > a
+          padding: 5px
+  th
+    color: $text-strong
+    text-align: left
+  tr
+    &:hover
+      background-color: $background
+      color: $text-strong
+  thead
+    td,
+    th
+      border-width: 0 0 2px
+      color: $text-light
+  tbody
+    tr
+      &:last-child
+        td,
+        th
+          border-bottom-width: 0
+  tfoot
+    td,
+    th
+      border-width: 2px 0 0
+      color: $text-light
