@@ -7,10 +7,6 @@
   +desktop
     margin: 0 auto
     max-width: 960px
-    // Modifiers
-    &.is-fluid
-      margin: 0 20px
-      max-width: none
   +widescreen
     max-width: 1200px
 
@@ -18,3 +14,110 @@
   font-size: 21px
   text-align: center
   vertical-align: top
+
+.unselectable
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.delete
+  @extend .unselectable
+  -moz-appearance: none
+  -webkit-appearance: none
+  background-color: rgba($black, 0.2)
+  border: none
+  border-radius: 290486px
+  cursor: pointer
+  display: inline-block
+  height: 24px
+  position: relative
+  vertical-align: top
+  width: 24px
+  &:before,
+  &:after
+    background-color: $white
+    content: ""
+    display: block
+    height: 2px
+    left: 50%
+    margin-left: -25%
+    margin-top: -1px
+    position: absolute
+    top: 50%
+    width: 50%
+  &:before
+    transform: rotate(45deg)
+  &:after
+    transform: rotate(-45deg)
+  &:hover
+    background-color: rgba($black, 0.5)
+
+.icon
+  +fa(21px, 24px)
+  .fa
+    font-size: inherit
+    line-height: inherit
+
+.heading
+  display: block
+  font-size: 11px
+  letter-spacing: 1px
+  margin-bottom: 5px
+  text-transform: uppercase
+
+.highlight
+  @extend .block
+  font-size: 12px
+  font-weight: normal
+  max-width: 100%
+  overflow: hidden
+  padding: 0
+  pre
+    overflow: auto
+    max-width: 100%
+
+.loader
+  animation: spin-around 500ms infinite linear
+  border: 2px solid $border
+  border-radius: 290486px
+  border-right-color: transparent
+  border-top-color: transparent
+  content: ""
+  display: block
+  height: 16px
+  position: relative
+  width: 16px
+
+.number
+  background-color: $background
+  border-radius: 290486px
+  display: inline-block
+  font-size: $size-medium
+  vertical-align: top
+
+.tag
+  align-items: center
+  background-color: $background
+  border-radius: 290486px
+  color: $text
+  display: inline-flex
+  font-size: 12px
+  height: 24px
+  justify-content: center
+  line-height: 16px
+  padding-left: 10px
+  padding-right: 10px
+  vertical-align: top
+  white-space: nowrap
+  .delete
+    margin-left: 4px
+    margin-right: -6px
+  // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.is-#{$name}
+      background-color: $color
+      color: $color-invert
