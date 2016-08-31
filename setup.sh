@@ -8,4 +8,3 @@
 
 bundle install
 bundle exec bourbon install
-bundle exec neat install
