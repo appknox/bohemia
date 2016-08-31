@@ -1,0 +1,74 @@
+.column
+  flex-basis: 0
+  flex-grow: 1
+  flex-shrink: 1
+  padding: 10px
+
+  +tablet
+    &.is-full,
+    &.is-full-tablet
+      flex: none
+      width: 100%
+    &.is-half,
+    &.is-half-tablet
+      flex: none
+      width: 50%
+    &.is-one-third,
+    &.is-one-third-tablet
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter,
+    &.is-one-quarter-tablet
+      flex: none
+      width: 25%
+
+  +desktop
+    &.is-full-desktop
+      flex: none
+      width: 100%
+    &.is-half-desktop
+      flex: none
+      width: 50%
+    &.is-one-third-desktop
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter-desktop
+      flex: none
+      width: 25%
+
+  +widescreen
+    &.is-full-widescreen
+      flex: none
+      width: 100%
+    &.is-half-widescreen
+      flex: none
+      width: 50%
+    &.is-one-third-widescreen
+      flex: none
+      width: 33.3333%
+    &.is-one-quarter-widescreen
+      flex: none
+      width: 25%
+      margin-left: 25%
+
+.columns
+  margin-left: -10px
+  margin-right: -10px
+  margin-top: -10px
+  &:last-child
+    margin-bottom: -10px
+  &:not(:last-child)
+    margin-bottom: 10px
+  // Modifiers
+  &.is-multiline
+    flex-wrap: wrap
+  &.is-vcentered
+    align-items: center
+  // Responsiveness
+  +tablet
+    &:not(.is-desktop)
+      display: flex
+  +desktop
+    // Modifiers
+    &.is-desktop
+      display: flex
