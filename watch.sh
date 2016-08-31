@@ -6,4 +6,4 @@
 # Distributed under terms of the MIT license.
 #
 
-sass --watch .:dist
+bundle exec sass --watch .:dist
