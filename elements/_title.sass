@@ -1,0 +1,7 @@
+@each $size in $sizes
+  $i: index($sizes, $size)
+  h#{$i}
+    @extend .block
+    font-weight: $weight-title-normal
+    word-break: break-word
+    font-size: $size
