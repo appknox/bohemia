@@ -4,45 +4,22 @@
   flex-shrink: 1
   padding: 10px
 
-  +tablet
+  +smallscreen
     &.is-full,
-    &.is-full-tablet
       flex: none
       width: 100%
     &.is-half,
-    &.is-half-tablet
       flex: none
       width: 50%
     &.is-one-third,
-    &.is-one-third-tablet
       flex: none
       width: 33.3333%
     &.is-one-quarter,
-    &.is-one-quarter-tablet
       flex: none
       width: 25%
     &.is-one-fifth,
-    &.is-one-fifth-tablet
       flex: none
       width: 20%
-
-  +desktop
-    &.is-full-desktop
-      flex: none
-      width: 100%
-    &.is-half-desktop
-      flex: none
-      width: 50%
-    &.is-one-third-desktop
-      flex: none
-      width: 33.3333%
-    &.is-one-quarter-desktop
-      flex: none
-      width: 25%
-    &.is-one-fifth-desktop
-      flex: none
-      width: 20%
-
 
   +widescreen
     &.is-full-widescreen
@@ -67,6 +44,7 @@
   margin-left: -10px
   margin-right: -10px
   margin-top: -10px
+  display: flex
   &:last-child
     margin-bottom: -10px
   &:not(:last-child)
@@ -76,11 +54,3 @@
     flex-wrap: wrap
   &.is-vcentered
     align-items: center
-  // Responsiveness
-  +tablet
-    &:not(.is-desktop)
-      display: flex
-  +desktop
-    // Modifiers
-    &.is-desktop
-      display: flex
