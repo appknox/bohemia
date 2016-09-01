@@ -1,0 +1,25 @@
+{
+  "name": "bohemia",
+  "description": "Yet another CSS framework. Baked with goodness of SASS, Bourbon & flexbox-based grid.",
+  "main": "index.js",
+  "authors": [
+    "dhilipsiva"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bohemia",
+    "flexbox",
+    "grid",
+    "css",
+    "framwork",
+    "bulma"
+  ],
+  "homepage": "https://github.com/appknox/bohemia",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
