@@ -2,15 +2,6 @@
 
 // Colors
 
-$black: #111 !default
-$grey-darker: #222324 !default
-$grey-dark: #69707a !default
-$grey: #aeb1b5 !default
-$grey-light: #d3d6db !default
-$grey-lighter: #f5f7fa !default
-$white: #fff !default
-
-
 $blue: #2CC2F8 !default
 $green: #80C081 !default
 $orange: #F5D76E !default
@@ -18,6 +9,23 @@ $purple: #847bb9 !default
 $red: #ed6c63 !default
 $primary-color: #EF4836 !default
 $yellow: #fce473 !default
+
+$primary: $primary-color !default
+$info: $blue !default
+$success: $green !default
+$warning: $yellow !default
+$danger: $red !default
+
+$black: #111 !default
+$primary-darker: darken($primary, 45%) !default
+$primary-dark: darken($primary, 35%) !default
+$primary-light: lighten($primary, 35%) !default
+$primary-lighter: lighten($primary, 45%) !default
+$white: #fff !default
+
+$light: $primary-lighter !default
+$dark: $primary-dark !default
+$text: $primary-dark !default
 
 // Typography
 
@@ -56,19 +64,6 @@ $radius: 3px !default
 $radius-large: 5px !default
 $speed: 86ms !default
 
-// 2. Primary colors
-
-$primary: $primary-color !default
-
-$info: $blue !default
-$success: $green !default
-$warning: $yellow !default
-$danger: $red !default
-
-$light: $grey-lighter !default
-$dark: $grey-dark !default
-
-$text: $grey-dark !default
 
 // 3. Generated variables
 
@@ -86,18 +81,18 @@ $dark-invert: $light !default
 
 // General colors
 
-$body-background: $grey-lighter !default
+$body-background: $primary-lighter !default
 
-$background: $grey-lighter !default
+$background: $primary-lighter !default
 
-$border: $grey-light !default
-$border-hover: $grey !default
+$border: $primary-light !default
+$border-hover: $primary !default
 
 // Text colors
 
 $text-invert: findColorInvert($text) !default
-$text-light: $grey !default
-$text-strong: $grey-darker !default
+$text-light: $primary !default
+$text-strong: $primary-darker !default
 
 // Code colors
 
@@ -113,17 +108,17 @@ $link: $primary !default
 $link-invert: $primary-invert !default
 $link-visited: $purple !default
 
-$link-hover: $grey-darker !default
-$link-hover-background: $grey-lighter !default
-$link-hover-border: $grey-darker !default
+$link-hover: $primary-darker !default
+$link-hover-background: $primary-lighter !default
+$link-hover-border: $primary-darker !default
 
-$link-active: $grey-darker !default
-$link-active-border: $grey-darker !default
+$link-active: $primary-darker !default
+$link-active-border: $primary-darker !default
 
 // Control colors
 
 $control: $text-strong !default
-$control-background: $text-invert !default
+$control-background: $background !default
 $control-border: $border !default
 
 $control-hover: $link-hover !default
