@@ -2,6 +2,10 @@
 
 Yet another CSS framework. Baked with SASS, Bourbon &amp; flexbox-based grid.
 
+[![npm version](https://badge.fury.io/js/bohemia.svg)](https://badge.fury.io/js/bohemia)
+[![Bower version](https://badge.fury.io/bo/bohemia.svg)](https://badge.fury.io/bo/bohemia)
+[![GitHub version](https://badge.fury.io/gh/appknox%2Fbohemia.svg)](https://badge.fury.io/gh/appknox%2Fbohemia)
+
 ## How To
 
 1. Clone repo
