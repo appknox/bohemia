@@ -1,0 +1,23 @@
+//borrowed from twitter bootstrap.
+.breadcrumb
+  padding: $breadcrumb-padding-y $breadcrumb-padding-x
+  list-style: none
+  @include clearfix
+
+
+.breadcrumb-item
+  float: left
+
+  // The separator between breadcrumbs (by default, a forward-slash: "/")
+  + .breadcrumb-item::before
+    display: inline-block
+    padding-right: $breadcrumb-item-padding
+    padding-left: $breadcrumb-item-padding
+    color: $breadcrumb-divider-color
+    content: "#{$breadcrumb-divider}"
+
+
+  &.active
+    color: $breadcrumb-active-color
+
+
