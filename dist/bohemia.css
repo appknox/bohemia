@@ -350,6 +350,9 @@ section {
   margin: 0 20px;
   min-height: 100vh; }
 
+.hidden {
+  display: none; }
+
 .is-pulled-left {
   float: left; }
 
