@@ -1288,6 +1288,9 @@ h6 {
   display: flex;
   flex-wrap: wrap; }
 
+.menu {
+  box-shadow: 7px 0 5px -5px #888; }
+
 .menu-nav a {
   display: block;
   padding: 5px 10px; }
