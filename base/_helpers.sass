@@ -34,3 +34,15 @@
 
 .is-marginless
   margin: 0 !important
+
+@keyframes(progress)
+  from
+    background-position: 0 0
+  to
+    background-position: $progress-width 0
+
+.is-progress
+  transition: width 0.6s ease
+  background: linear-gradient(-45deg, $primary-light 25%, transparent 25%, transparent 50%, $primary-light 50%, $primary-light 75%, transparent 75%, transparent)
+  background-size: $progress-width $progress-width
+  animation: progress 2s cubic-bezier(0.58, 0.59, 0.37, 0.37) infinite
