@@ -377,7 +377,8 @@ section {
   margin-top: 40px; }
 
 .main-container .submission-view {
-  margin-left: 300px; }
+  margin-left: 300px;
+  margin-top: 0px; }
 
 .boh-horizontal-line {
   margin-top: 20px;
@@ -1368,9 +1369,33 @@ h6 {
     color: #6B6B6B;
     -webkit-transition: none;
     transition: none; }
-  .card-content ul li:before {
+  .card-content ul li.is-white:before {
     content: "• ";
-    color: red; }
+    color: #fff; }
+  .card-content ul li.is-black:before {
+    content: "• ";
+    color: #6B6B6B; }
+  .card-content ul li.is-light:before {
+    content: "• ";
+    color: white; }
+  .card-content ul li.is-dark:before {
+    content: "• ";
+    color: #8a0b01; }
+  .card-content ul li.is-primary:before {
+    content: "• ";
+    color: #FE4D3F; }
+  .card-content ul li.is-info:before {
+    content: "• ";
+    color: #2CC2F8; }
+  .card-content ul li.is-success:before {
+    content: "• ";
+    color: #80C081; }
+  .card-content ul li.is-warning:before {
+    content: "• ";
+    color: #F5D76E; }
+  .card-content ul li.is-danger:before {
+    content: "• ";
+    color: #EF4836; }
 
 .card-footer {
   border-top: 1px solid #fff2f1;

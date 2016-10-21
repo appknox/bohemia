@@ -32,9 +32,10 @@
     -webkit-transition: none
     transition: none
   ul
-    li:before
-      content: "• "
-      color: red
+    @each $name, $pair in $colors
+      li.is-#{$name}:before
+        content: "• "
+        color: nth($pair, 1)
 
 .card-footer
   border-top: 1px solid $border
