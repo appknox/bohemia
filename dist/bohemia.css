@@ -1226,6 +1226,8 @@ h6 {
   padding: 20px; }
   .card-content .title + .subtitle {
     margin-top: -20px; }
+  .card-content ul li span {
+    color: #6B6B6B; }
 
 .card-footer {
   border-top: 1px solid #fff2f1;
