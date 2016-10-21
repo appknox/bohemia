@@ -1559,77 +1559,59 @@ h6 {
 .message {
   background-color: white;
   border-radius: 3px; }
-  .message.is-white {
-    background-color: white; }
-    .message.is-white .message-header {
-      background-color: #fff;
-      color: #6B6B6B; }
-    .message.is-white .message-body {
-      border-color: #fff;
-      color: #666666; }
-  .message.is-black {
-    background-color: whitesmoke; }
-    .message.is-black .message-header {
-      background-color: #6B6B6B;
-      color: #fff; }
-    .message.is-black .message-body {
-      border-color: #6B6B6B;
-      color: gray; }
-  .message.is-light {
-    background-color: white; }
-    .message.is-light .message-header {
-      background-color: white;
-      color: #8a0b01; }
-    .message.is-light .message-body {
-      border-color: white;
-      color: #a2332a; }
-  .message.is-dark {
-    background-color: #ffeceb; }
-    .message.is-dark .message-header {
-      background-color: #8a0b01;
-      color: white; }
-    .message.is-dark .message-body {
-      border-color: #8a0b01;
-      color: #d73428; }
-  .message.is-primary {
-    background-color: #ffeceb; }
-    .message.is-primary .message-header {
-      background-color: #FE4D3F;
-      color: white; }
-    .message.is-primary .message-body {
-      border-color: #FE4D3F;
-      color: #d73428; }
-  .message.is-info {
-    background-color: #ebf9fe; }
-    .message.is-info .message-header {
-      background-color: #2CC2F8;
-      color: white; }
-    .message.is-info .message-body {
-      border-color: #2CC2F8;
-      color: #2ea6d1; }
-  .message.is-success {
-    background-color: #f1f8f1; }
-    .message.is-success .message-header {
-      background-color: #80C081;
-      color: white; }
-    .message.is-success .message-body {
-      border-color: #80C081;
-      color: #7b847b; }
-  .message.is-warning {
-    background-color: #fefaec; }
-    .message.is-warning .message-header {
-      background-color: #F5D76E;
-      color: white; }
-    .message.is-warning .message-body {
-      border-color: #F5D76E;
-      color: #c8a837; }
-  .message.is-danger {
-    background-color: #fdeeec; }
-    .message.is-danger .message-header {
-      background-color: #EF4836;
-      color: white; }
-    .message.is-danger .message-body {
-      border-color: #EF4836;
-      color: #c64739; }
+  .message.is-white .message-header {
+    background-color: #fff;
+    color: #6B6B6B; }
+  .message.is-white .message-body {
+    border-color: #fff;
+    color: #666666; }
+  .message.is-black .message-header {
+    background-color: #6B6B6B;
+    color: #fff; }
+  .message.is-black .message-body {
+    border-color: #6B6B6B;
+    color: gray; }
+  .message.is-light .message-header {
+    background-color: white;
+    color: #8a0b01; }
+  .message.is-light .message-body {
+    border-color: white;
+    color: #a2332a; }
+  .message.is-dark .message-header {
+    background-color: #8a0b01;
+    color: white; }
+  .message.is-dark .message-body {
+    border-color: #8a0b01;
+    color: #d73428; }
+  .message.is-primary .message-header {
+    background-color: #FE4D3F;
+    color: white; }
+  .message.is-primary .message-body {
+    border-color: #FE4D3F;
+    color: #d73428; }
+  .message.is-info .message-header {
+    background-color: #2CC2F8;
+    color: white; }
+  .message.is-info .message-body {
+    border-color: #2CC2F8;
+    color: #2ea6d1; }
+  .message.is-success .message-header {
+    background-color: #80C081;
+    color: white; }
+  .message.is-success .message-body {
+    border-color: #80C081;
+    color: #7b847b; }
+  .message.is-warning .message-header {
+    background-color: #F5D76E;
+    color: white; }
+  .message.is-warning .message-body {
+    border-color: #F5D76E;
+    color: #c8a837; }
+  .message.is-danger .message-header {
+    background-color: #EF4836;
+    color: white; }
+  .message.is-danger .message-body {
+    border-color: #EF4836;
+    color: #c64739; }
 
 /*# sourceMappingURL=bohemia.css.map */
