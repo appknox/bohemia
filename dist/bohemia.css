@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;
   padding: 0;
@@ -352,6 +353,143 @@ section {
 
 .hidden {
   display: none; }
+
+.list-style {
+  list-style: square; }
+
+.flex-center, .login-container {
+  justify-content: center;
+  align-items: center; }
+
+.login-container {
+  width: 100vw;
+  height: 100vh; }
+  .login-container .login-wrapper {
+    display: block; }
+
+.boh-menu-list a:hover {
+  background-color: #f0f0f0; }
+
+.boh-menu-list a {
+  color: #816f8f; }
+
+.boh-menu-list {
+  margin-top: 40px; }
+
+.submission-view {
+  margin-left: 300px; }
+
+.boh-horizontal-line {
+  margin-top: 20px;
+  border-bottom: 1px solid #dddddd; }
+
+.boh-menu-list a:active {
+  color: blue; }
+
+.login-phone-image img {
+  width: 60%; }
+
+.login-form {
+  margin-top: 50px;
+  padding: 50px 20px;
+  box-shadow: 2px 2px 17px -1px rgba(0, 0, 0, 0.5);
+  width: 80%; }
+
+.boh-menu-list a {
+  line-height: 30px; }
+
+.tag {
+  margin-left: 3px;
+  margin-right: 3px; }
+
+.margin-right-40 {
+  margin-right: -40px; }
+
+.settings {
+  margin-left: 20px; }
+
+.margin-left20 {
+  margin-left: 20px; }
+
+.color-black {
+  color: #816f8f; }
+
+.color-grey {
+  color: #5e5e5e; }
+
+.grey-font {
+  color: #8e8e8e; }
+
+.text-color-grey {
+  color: #4d4d4d; }
+
+.appknox-logo {
+  margin-top: 13px; }
+
+.appknox-logo img {
+  width: 100px;
+  margin-left: 142px; }
+
+.red-font {
+  color: #ff6666;
+  margin-top: -10px; }
+
+.lightgrey-background {
+  background-color: #fafafa;
+  margin-right: -10px; }
+
+.margin-top {
+  margin-top: 10px; }
+
+.margin-top20 {
+  margin-top: 20px; }
+
+.margin-top35 {
+  margin-top: 35px; }
+
+.margin-left30 {
+  margin-left: 30px; }
+
+.margin-left0 {
+  margin-left: 0px; }
+
+.button-size {
+  padding: 0px 20px;
+  border-color: #999999 !important;
+  color: #999999 !important;
+  font-size: 12px; }
+
+.margin-top50 {
+  margin-top: 50px; }
+
+.forgot-password {
+  font-size: 11px; }
+
+.login-button {
+  width: 60% !important; }
+
+.signin-text {
+  color: #ff6666; }
+
+.file-icon {
+  padding: 10px;
+  width: 60px; }
+
+.file-card {
+  box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.2); }
+
+.border-left {
+  border-left: 1px solid #e6e6e6;
+  margin-top: -20px;
+  margin-bottom: -20px; }
+
+.align-center {
+  display: flex;
+  justify-content: center; }
+
+.text-center {
+  display: flex;
+  justify-content: center; }
 
 .is-pulled-left {
   float: left; }
@@ -1226,8 +1364,13 @@ h6 {
   padding: 20px; }
   .card-content .title + .subtitle {
     margin-top: -20px; }
-  .card-content ul li span {
-    color: #6B6B6B; }
+  .card-content a {
+    color: #6B6B6B;
+    -webkit-transition: none;
+    transition: none; }
+  .card-content ul li:before {
+    content: "• ";
+    color: red; }
 
 .card-footer {
   border-top: 1px solid #fff2f1;
@@ -1329,6 +1472,32 @@ h6 {
   text-transform: uppercase; }
   .menu-label:not(:first-child) {
     margin-top: 20px; }
+
+.user-menu {
+  background-color: #000;
+  margin-left: 0px;
+  color: #ffffff;
+  margin-right: 0px;
+  padding: 0px; }
+
+.menu-image {
+  padding: 0px 10px;
+  margin-left: 10px; }
+
+.menu-image img {
+  margin-top: 5px;
+  width: 47px;
+  padding: 3px 5px; }
+
+.menu-user {
+  margin-left: -50px; }
+
+.side-menu {
+  box-shadow: 1px 0px 8px -1px rgba(0, 0, 0, 0.3);
+  margin-left: -20px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding-right: 0px; }
 
 .modal-background {
   bottom: 0;
@@ -1539,6 +1708,12 @@ h6 {
     content: "/"; }
   .breadcrumb-item.active {
     color: #FE4D3F; }
+
+.breadcrumb-view {
+  border-bottom: 0px solid #000;
+  box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.3);
+  margin-right: -25px;
+  background-color: #ffffff; }
 
 .message-body {
   border: 1px solid #fff2f1;

@@ -27,10 +27,14 @@
   padding: 20px
   .title + .subtitle
     margin-top: -20px
+  a
+    color: $grey
+    -webkit-transition: none
+    transition: none
   ul
-    li
-      span
-        color: $grey
+    li:before
+      content: "• "
+      color: red
 
 .card-footer
   border-top: 1px solid $border
