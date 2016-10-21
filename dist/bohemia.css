@@ -1546,9 +1546,8 @@ h6 {
     color: inherit; }
 
 .message-header {
-  background-color: #8a0b01;
   border-radius: 3px 3px 0 0;
-  color: white;
+  color: #8a0b01;
   padding: 7px 10px; }
   .message-header strong {
     color: inherit; }
