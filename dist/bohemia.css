@@ -313,6 +313,9 @@ table {
   .tag .delete, .tag .modal-close {
     margin-left: 4px;
     margin-right: -6px; }
+  .tag.is-default {
+    background-color: #6B6B6B;
+    color: white; }
   .tag.is-white {
     background-color: #fff;
     color: #6B6B6B; }
@@ -636,6 +639,29 @@ button, [type='button'], [type='reset'], [type='submit'] {
   button:active,
   button:active, [type='button']:active, [type='reset']:active, [type='submit']:active {
     box-shadow: inset 0 1px 2px rgba(107, 107, 107, 0.2); }
+  button.is-default,
+  button.is-default, [type='button'].is-default, [type='reset'].is-default, [type='submit'].is-default {
+    border-color: #6B6B6B;
+    color: #6B6B6B; }
+    button.is-default:hover, button.is-default:focus,
+    button.is-default:hover,
+    button.is-default:focus, [type='button'].is-default:hover, [type='button'].is-default:focus, [type='reset'].is-default:hover, [type='reset'].is-default:focus, [type='submit'].is-default:hover, [type='submit'].is-default:focus {
+      background-color: #6B6B6B;
+      border-color: #6B6B6B;
+      color: white; }
+    button.is-default:active,
+    button.is-default:active, [type='button'].is-default:active, [type='reset'].is-default:active, [type='submit'].is-default:active {
+      border-color: transparent; }
+    button.is-default.is-inverted,
+    button.is-default.is-inverted, [type='button'].is-default.is-inverted, [type='reset'].is-default.is-inverted, [type='submit'].is-default.is-inverted {
+      background-color: white;
+      color: #6B6B6B; }
+      button.is-default.is-inverted:hover,
+      button.is-default.is-inverted:hover, [type='button'].is-default.is-inverted:hover, [type='reset'].is-default.is-inverted:hover, [type='submit'].is-default.is-inverted:hover {
+        background-color: #f2f2f2; }
+    button.is-default.is-loading:after,
+    button.is-default.is-loading:after, [type='button'].is-default.is-loading:after, [type='reset'].is-default.is-loading:after, [type='submit'].is-default.is-loading:after {
+      border-color: transparent transparent #FE4D3F #FE4D3F !important; }
   button.is-white,
   button.is-white, [type='button'].is-white, [type='reset'].is-white, [type='submit'].is-white {
     border-color: #fff;
@@ -901,6 +927,8 @@ button, [type='button'], [type='reset'], [type='submit'] {
       color: rgba(87, 7, 0, 0.3); }
     .input[disabled]:-ms-input-placeholder, [disabled].textarea:-ms-input-placeholder, .input.is-disabled:-ms-input-placeholder, .is-disabled.textarea:-ms-input-placeholder {
       color: rgba(87, 7, 0, 0.3); }
+  .input.is-default, .is-default.textarea {
+    border-color: #6B6B6B; }
   .input.is-white, .is-white.textarea {
     border-color: #fff; }
   .input.is-black, .is-black.textarea {
@@ -1000,6 +1028,8 @@ button, [type='button'], [type='reset'], [type='submit'] {
         color: rgba(87, 7, 0, 0.3); }
       .select select[disabled]:-ms-input-placeholder, .select select.is-disabled:-ms-input-placeholder {
         color: rgba(87, 7, 0, 0.3); }
+    .select select.is-default {
+      border-color: #6B6B6B; }
     .select select.is-white {
       border-color: #fff; }
     .select select.is-black {
@@ -1054,6 +1084,8 @@ button, [type='button'], [type='reset'], [type='submit'] {
   display: block;
   font-size: 11px;
   margin-top: 5px; }
+  .help.is-default {
+    color: #6B6B6B; }
   .help.is-white {
     color: #fff; }
   .help.is-black {
@@ -1228,6 +1260,9 @@ button, [type='button'], [type='reset'], [type='submit'] {
   .notification .subtitle,
   .notification .title {
     color: inherit; }
+  .notification.is-default {
+    background-color: #6B6B6B;
+    color: white; }
   .notification.is-white {
     background-color: #fff;
     color: #6B6B6B; }
@@ -1369,6 +1404,9 @@ h6 {
     color: #6B6B6B;
     -webkit-transition: none;
     transition: none; }
+  .card-content ul li.is-default:before {
+    content: "• ";
+    color: #6B6B6B; }
   .card-content ul li.is-white:before {
     content: "• ";
     color: #fff; }
@@ -1760,6 +1798,12 @@ h6 {
 .message {
   background-color: white;
   border-radius: 3px; }
+  .message.is-default .message-header {
+    background-color: #6B6B6B;
+    color: white; }
+  .message.is-default .message-body {
+    border-color: #6B6B6B;
+    color: gray; }
   .message.is-white .message-header {
     background-color: #fff;
     color: #6B6B6B; }

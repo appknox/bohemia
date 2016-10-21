@@ -17,6 +17,7 @@ $info: $blue !default
 $success: $green !default
 $warning: $yellow !default
 $danger: $red !default
+$default: $grey !default
 
 $black: $grey !default
 $primary-darker: darken($primary, 45%) !default
@@ -76,6 +77,7 @@ $info-invert: findColorInvert($info) !default
 $success-invert: findColorInvert($success) !default
 $warning-invert: findColorInvert($warning) !default
 $danger-invert: findColorInvert($danger) !default
+$default-invert: findColorInvert($default) !default
 
 $light-invert: $dark !default
 $dark-invert: $light !default
@@ -143,7 +145,7 @@ $size-huge: $size-1 !default
 
 // 4. Lists and maps
 
-$colors: (white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), info: ($info, $info-invert), success: ($success, $success-invert), warning: ($warning, $warning-invert), danger: ($danger, $danger-invert)) !default
+$colors: (default: ($default, $default-invert), white: ($white, $black), black: ($black, $white), light: ($light, $light-invert), dark: ($dark, $dark-invert), primary: ($primary, $primary-invert), info: ($info, $info-invert), success: ($success, $success-invert), warning: ($warning, $warning-invert), danger: ($danger, $danger-invert)) !default
 
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 !default
 
