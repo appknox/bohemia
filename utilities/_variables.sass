@@ -2,14 +2,15 @@
 
 // Colors
 
-// IMPORTANT: These colors needs to changed in
-$blue: #6666ff !default
-$green: #47c65c !default
-$orange: #F5D76E !default
-$purple: #847bb9 !default
-$red: #e22e35 !default
-$primary-color: #EF4836 !default
-$yellow: #fcee21 !default
+// IMPORTANT: These colors needs to changed in pie-chart as well.
+$blue: #2CC2F8 !default
+$green: #80C081 !default
+$orange: #D35400 !default
+$purple: #663399 !default
+$red: #EF4836 !default
+$primary-color: #FE4D3F !default
+$yellow: #F5D76E !default
+$grey: #6B6B6B
 
 $primary: $primary-color !default
 $info: $blue !default
@@ -17,7 +18,7 @@ $success: $green !default
 $warning: $yellow !default
 $danger: $red !default
 
-$black: #b3b3b3 !default
+$black: $grey !default
 $primary-darker: darken($primary, 45%) !default
 $primary-dark: darken($primary, 35%) !default
 $primary-light: lighten($primary, 35%) !default
@@ -71,7 +72,6 @@ $speed: 86ms !default
 // Invert colors
 
 $primary-invert: findColorInvert($primary) !default
-
 $info-invert: findColorInvert($info) !default
 $success-invert: findColorInvert($success) !default
 $warning-invert: findColorInvert($warning) !default
