@@ -532,6 +532,9 @@ section {
   background-size: 20px 20px;
   animation: progress 0.5s linear infinite; }
 
+.is-fullwidth {
+  width: 100%; }
+
 @keyframes spin-around {
   from {
     transform: rotate(0deg); }
