@@ -427,13 +427,6 @@ section {
 .text-color-grey {
   color: #4d4d4d; }
 
-.appknox-logo {
-  margin-top: 13px; }
-
-.appknox-logo img {
-  width: 100px;
-  margin-left: 142px; }
-
 .red-font {
   color: #ff6666;
   margin-top: -10px; }
@@ -471,9 +464,6 @@ section {
 
 .login-button {
   width: 60% !important; }
-
-.signin-text {
-  color: #ff6666; }
 
 .file-icon {
   padding: 10px;
@@ -1389,8 +1379,7 @@ h6 {
   align-items: center;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  width: 40px; }
+  justify-content: center; }
 
 .card-image {
   display: block;
