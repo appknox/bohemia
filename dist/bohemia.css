@@ -1479,21 +1479,23 @@ h6 {
   display: block;
   padding: 5px 10px; }
 
-.menu-list a {
-  border-radius: 2px;
-  color: #8a0b01;
-  display: block;
-  padding: 5px 10px; }
-  .menu-list a:hover {
-    background-color: white;
-    color: #FE4D3F; }
-  .menu-list a.is-active {
-    background-color: #FE4D3F;
-    color: white; }
-.menu-list li ul {
-  border-left: 1px solid #fff2f1;
-  margin: 10px;
-  padding-left: 10px; }
+.menu-list {
+  display: block; }
+  .menu-list a {
+    border-radius: 2px;
+    color: #8a0b01;
+    display: block;
+    padding: 5px 10px; }
+    .menu-list a:hover {
+      background-color: white;
+      color: #FE4D3F; }
+    .menu-list a.is-active {
+      background-color: #FE4D3F;
+      color: white; }
+  .menu-list li ul {
+    border-left: 1px solid #fff2f1;
+    margin: 10px;
+    padding-left: 10px; }
 
 .menu-label {
   color: #FE4D3F;
@@ -1525,7 +1527,6 @@ h6 {
 
 .side-menu {
   box-shadow: 1px 0px 8px -1px rgba(0, 0, 0, 0.3);
-  margin-left: -20px;
   min-height: 100vh;
   background-color: #f0f0f0;
   padding-right: 0px; }
