@@ -357,9 +357,6 @@ section {
 .hidden {
   display: none; }
 
-.list-style {
-  list-style: square; }
-
 .flex-center, .login-container {
   justify-content: center;
   align-items: center; }
@@ -370,15 +367,6 @@ section {
   .login-container .login-wrapper {
     display: block; }
 
-.boh-menu-list a:hover {
-  background-color: #f0f0f0; }
-
-.boh-menu-list a {
-  color: #816f8f; }
-
-.boh-menu-list {
-  margin-top: 40px; }
-
 .main-container .submission-view {
   margin-left: 300px;
   margin-top: 10px; }
@@ -386,9 +374,6 @@ section {
 .boh-horizontal-line {
   margin-top: 20px;
   border-bottom: 1px solid #dddddd; }
-
-.boh-menu-list a:active {
-  color: blue; }
 
 .login-phone-image img {
   width: 60%; }
@@ -399,9 +384,6 @@ section {
   box-shadow: 2px 2px 17px -1px rgba(0, 0, 0, 0.5);
   width: 80%; }
 
-.boh-menu-list a {
-  line-height: 30px; }
-
 .tag {
   margin-left: 3px;
   margin-right: 3px; }
@@ -409,31 +391,9 @@ section {
 .settings {
   margin-left: 20px; }
 
-.color-black {
-  color: #816f8f; }
-
-.color-grey {
-  color: #5e5e5e; }
-
-.grey-font {
-  color: #8e8e8e; }
-
-.text-color-grey {
-  color: #4d4d4d; }
-
-.red-font {
-  color: #ff6666;
-  margin-top: -10px; }
-
 .lightgrey-background {
   background-color: #fafafa;
   margin-right: -10px; }
-
-.button-size {
-  padding: 0px 20px;
-  border-color: #999999 !important;
-  color: #999999 !important;
-  font-size: 12px; }
 
 .forgot-password {
   font-size: 11px; }
@@ -1480,12 +1440,14 @@ h6 {
   padding: 5px 10px; }
 
 .menu-list {
-  display: block; }
+  display: block;
+  margin-top: 40px; }
   .menu-list a {
     border-radius: 2px;
     color: #8a0b01;
     display: block;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    line-height: 30px; }
     .menu-list a:hover {
       background-color: white;
       color: #FE4D3F; }
