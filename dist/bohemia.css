@@ -1375,9 +1375,9 @@ h6 {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  padding: 10px; }
-  .card-footer-item:not(:last-child) {
-    border-right: 1px solid #fff2f1; }
+  padding: 10px;
+  border-radius: 0;
+  height: 100%; }
 
 .card {
   background-color: white;
