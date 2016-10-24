@@ -358,6 +358,7 @@ section {
   display: none; }
 
 .flex-center, .login-container {
+  display: flex;
   justify-content: center;
   align-items: center; }
 
@@ -413,13 +414,9 @@ section {
   margin-top: -20px;
   margin-bottom: -20px; }
 
-.align-center {
+.content-right {
   display: flex;
-  justify-content: center; }
-
-.text-center {
-  display: flex;
-  justify-content: center; }
+  justify-content: flex-end; }
 
 .is-pulled-left {
   float: left; }
