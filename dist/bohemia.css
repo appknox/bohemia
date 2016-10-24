@@ -1440,6 +1440,7 @@ h6 {
   padding: 5px 10px; }
 
 .menu-list {
+  display: block;
   margin-top: 40px; }
   .menu-list a {
     border-radius: 2px;
@@ -1488,7 +1489,6 @@ h6 {
 
 .side-menu {
   box-shadow: 1px 0px 8px -1px rgba(0, 0, 0, 0.3);
-  margin-left: -20px;
   min-height: 100vh;
   background-color: #f0f0f0;
   padding-right: 0px; }
