@@ -1315,7 +1315,12 @@ h6 {
   align-items: center;
   cursor: pointer;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%; }
+  .card-header-icon img {
+    max-height: 100%;
+    max-width: 100%; }
 
 .card-image {
   display: block;
