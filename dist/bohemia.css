@@ -205,7 +205,7 @@ table {
     text-align: left;
     vertical-align: top; }
   table th {
-    color: #570700; }
+    color: #6B6B6B; }
 
 .block:not(:last-child), .highlight:not(:last-child), .box:not(:last-child), .notification:not(:last-child), h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-child), h5:not(:last-child), h6:not(:last-child), .tabs:not(:last-child), .message:not(:last-child) {
   margin-bottom: 20px; }
@@ -1219,8 +1219,7 @@ button, [type='button'], [type='reset'], [type='submit'] {
 
 table {
   background-color: white;
-  color: #570700;
-  margin-bottom: 20px;
+  color: #6B6B6B;
   width: 100%; }
   table td,
   table th {
@@ -1250,22 +1249,22 @@ table {
         table th.is-icon.is-link > a {
           padding: 5px; }
   table th {
-    color: #570700;
+    color: #6B6B6B;
     text-align: left; }
   table tr:hover {
     background-color: white;
-    color: #570700; }
+    color: #6B6B6B; }
   table thead td,
   table thead th {
     border-width: 0 0 2px;
-    color: #FE4D3F; }
+    color: #6B6B6B; }
   table tbody tr:last-child td,
   table tbody tr:last-child th {
     border-bottom-width: 0; }
   table tfoot td,
   table tfoot th {
     border-width: 2px 0 0;
-    color: #FE4D3F; }
+    color: #6B6B6B; }
 
 h1 {
   font-weight: 300;
