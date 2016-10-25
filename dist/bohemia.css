@@ -144,7 +144,7 @@ pre {
   line-height: 1.25; }
 
 body {
-  color: #8a0b01;
+  color: #6B6B6B;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.42857; }
@@ -188,12 +188,12 @@ strong {
 
 pre {
   background-color: white;
-  color: #8a0b01;
+  color: #6B6B6B;
   white-space: pre;
   word-wrap: normal; }
   pre code {
     background-color: white;
-    color: #8a0b01;
+    color: #6B6B6B;
     display: block;
     overflow-x: auto;
     padding: 16px 20px; }
@@ -300,7 +300,7 @@ table {
   align-items: center;
   background-color: white;
   border-radius: 290486px;
-  color: #8a0b01;
+  color: #6B6B6B;
   display: inline-flex;
   font-size: 12px;
   height: 24px;
@@ -1382,7 +1382,7 @@ h6 {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(107, 107, 107, 0.1), 0 0 0 1px rgba(107, 107, 107, 0.1);
-  color: #8a0b01;
+  color: #6B6B6B;
   max-width: 100%;
   position: relative;
   width: 300px; }
@@ -1446,7 +1446,7 @@ h6 {
   margin-top: 40px; }
   .menu-list a {
     border-radius: 2px;
-    color: #8a0b01;
+    color: #6B6B6B;
     display: block;
     padding: 5px 45px;
     line-height: 30px; }
@@ -1610,7 +1610,7 @@ h6 {
   .tabs a {
     align-items: center;
     border-bottom: 1px solid #fff2f1;
-    color: #8a0b01;
+    color: #6B6B6B;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -1695,7 +1695,7 @@ h6 {
 
 .message-header {
   border-radius: 3px 3px 0 0;
-  color: #8a0b01;
+  color: #6B6B6B;
   padding: 7px 10px; }
   .message-header strong {
     color: inherit; }
