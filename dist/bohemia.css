@@ -1380,7 +1380,7 @@ h6 {
 
 .card {
   background-color: white;
-  box-shadow: 0 2px 3px rgba(107, 107, 107, 0.1), 0 0 0 1px rgba(107, 107, 107, 0.1);
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.5);
   color: #6B6B6B;
   max-width: 100%;
   position: relative;
