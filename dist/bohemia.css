@@ -1448,13 +1448,16 @@ h6 {
     color: #6B6B6B;
     display: block;
     padding: 5px 45px;
-    line-height: 30px; }
+    line-height: 30px;
+    font-weight: bold; }
     .menu-list a:hover {
       background-color: white;
-      color: #FE4D3F; }
+      color: #FE4D3F;
+      font-weight: bolder; }
     .menu-list a.is-active {
       background-color: #FE4D3F;
-      color: white; }
+      color: white;
+      font-weight: bolder; }
   .menu-list li ul {
     border-left: 1px solid #fff2f1;
     margin: 10px;
