@@ -1397,6 +1397,11 @@ h6 {
   .card.is-rounded {
     border-radius: 5px; }
 
+.card-icon {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px; }
+
 .column {
   flex-basis: 0;
   flex-grow: 1;
