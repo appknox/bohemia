@@ -101,13 +101,6 @@
 
 // Containers
 
-.control-label
-  +smallscreen
-    flex-grow: 1
-    margin-right: 20px
-    padding-top: 7px
-    text-align: right
-
 .control
   position: relative
   text-align: left
@@ -181,12 +174,6 @@
       justify-content: center
     &.is-grouped-right
       justify-content: flex-end
-  &.is-horizontal
-    +smallscreen
-      display: flex
-      & > .control
-        display: flex
-        flex-grow: 5
   &.is-loading
     &:after
       @extend .loader

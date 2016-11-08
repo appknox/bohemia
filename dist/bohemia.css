@@ -1038,13 +1038,6 @@ button, [type='button'], [type='reset'], [type='submit'] {
   .help.is-danger {
     color: #EF4836; }
 
-@media screen and (max-width: 1440px) {
-  .control-label {
-    flex-grow: 1;
-    margin-right: 20px;
-    padding-top: 7px;
-    text-align: right; } }
-
 .control {
   position: relative;
   text-align: left; }
@@ -1142,12 +1135,6 @@ button, [type='button'], [type='reset'], [type='submit'] {
       justify-content: center; }
     .control.is-grouped.is-grouped-right {
       justify-content: flex-end; }
-  @media screen and (max-width: 1440px) {
-    .control.is-horizontal {
-      display: flex; }
-      .control.is-horizontal > .control {
-        display: flex;
-        flex-grow: 5; } }
   .control.is-loading:after {
     position: absolute !important;
     right: 8px;
@@ -1407,39 +1394,21 @@ h6 {
   flex-grow: 1;
   flex-shrink: 1;
   padding: 10px; }
-  @media screen and (max-width: 1440px) {
-    .column.is-full {
-      flex: none;
-      width: 100%; }
-    .column.is-half {
-      flex: none;
-      width: 50%; }
-    .column.is-one-third {
-      flex: none;
-      width: 33.3333%; }
-    .column.is-one-quarter {
-      flex: none;
-      width: 25%; }
-    .column.is-one-sixth {
-      flex: none;
-      width: 16.6666%; } }
-  @media screen and (min-width: 1441px) {
-    .column.is-full-widescreen {
-      flex: none;
-      width: 100%; }
-    .column.is-half-widescreen {
-      flex: none;
-      width: 50%; }
-    .column.is-one-third-widescreen {
-      flex: none;
-      width: 33.3333%; }
-    .column.is-one-quarter-widescreen {
-      flex: none;
-      width: 25%;
-      margin-left: 25%; }
-    .column.is-one-sixth-widescreen {
-      flex: none;
-      width: 16.6666%; } }
+  .column.is-full {
+    flex: none;
+    width: 100%; }
+  .column.is-half {
+    flex: none;
+    width: 50%; }
+  .column.is-one-third {
+    flex: none;
+    width: 33.3333%; }
+  .column.is-one-quarter {
+    flex: none;
+    width: 25%; }
+  .column.is-one-sixth {
+    flex: none;
+    width: 16.6666%; }
 
 .columns {
   margin-left: -10px;
@@ -1523,11 +1492,6 @@ h6 {
   overflow: auto;
   position: relative;
   width: 100%; }
-  @media screen and (max-width: 1440px) {
-    .modal-content, .modal-card {
-      margin: 0 auto;
-      max-height: calc(100vh - 40px);
-      width: 640px; } }
 
 .modal-close {
   background: none;
@@ -1609,9 +1573,6 @@ h6 {
     display: flex;
     flex-grow: 1;
     justify-content: center; }
-  @media screen and (max-width: 1440px) {
-    .pagination > button:not(:first-child) {
-      order: 1; } }
 
 .tabs {
   align-items: stretch;
