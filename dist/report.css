@@ -123,37 +123,39 @@ html {
   margin-top: 150px;
   text-align: center;
   font-size: 36px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: underline; }
 
 .sub-heading {
   font-style: italic;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-weight: 300; }
 
 .app-name {
-  font-weight: 900;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
-  margin-top: 70px; }
+  margin-top: 70px;
+  font-weight: 300;
+  font-weight: bold; }
 
 .doc-description p {
-  font-size: 18px;
-  margin-top: 70px; }
+  font-size: 14px;
+  margin-top: 50px; }
 
 .heading-container {
   border: 2px solid #EF4836;
   border-radius: 5px;
   color: #EF4836;
-  padding: 5px;
+  padding: 2px;
   margin: 40px auto;
   min-width: 30%;
   width: 50%;
   max-width: 70%;
   text-align: center;
   font-weight: 100 !important;
-  font-size: 32px; }
+  font-size: 28px; }
 
 .content-table, .app-details, .audit-table {
   margin: auto;
@@ -166,7 +168,8 @@ html {
 
 .content-table a, .app-details a, .audit-table a {
   text-decoration: none;
-  color: #6b6b6b; }
+  color: #6b6b6b;
+  font-size: 12px !important; }
 
 .main-table-heading a {
   margin-left: 10px; }
@@ -175,33 +178,43 @@ html {
   margin-left: 20px; }
 
 .app-details {
-  width: 90%; }
+  width: 100%; }
 
 .app-details tr td, .audit-table tr td {
   border-bottom: 1px solid #000;
   border-right: 1px solid #000;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding: 15px; }
 
 .sub-heading-container {
   padding: 5px;
   border: 2px solid #EF4836;
   border-radius: 5px;
   color: #EF4836;
-  width: 30%;
-  text-align: center; }
+  width: 40%;
+  text-align: center;
+  font-weight: 100 !important;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 .audit-table {
   width: 100%;
   text-align: center; }
+  .audit-table p {
+    margin-top: 20px;
+    font-size: 12px; }
 
 .risk-type {
   border-radius: 290486px;
-  width: 50px;
+  width: 70px;
   font-size: 12px;
-  text-align: center; }
+  text-align: center;
+  padding: 5px; }
 
 .risk-type-container {
-  padding-right: 10px; }
+  padding-right: 10px;
+  vertical-align: middle; }
 
 .sub-table {
   margin-top: 50px; }
@@ -211,13 +224,16 @@ html {
   font-size: 16px;
   width: 200px;
   text-align: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .analysis-type {
   border-left: 2px solid #C0C0C0;
   border-top: 2px solid #C0C0C0;
-  width: 30%;
-  margin-top: 20px; }
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .analysis-type h5 {
   margin-left: 10px;
