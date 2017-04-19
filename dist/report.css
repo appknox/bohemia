@@ -1,114 +1,110 @@
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-weight: normal;
-  vertical-align: baseline;
-  background: transparent; }
-
-article, aside, figure, footer, header, nav, section, details, summary {
-  display: block; }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit; }
-
-img {
-  max-width: 100%; }
-
 html {
-  overflow-y: scroll;
-  box-sizing: border-box; }
+  color: #6b6b6b; }
 
-ul {
-  list-style: none; }
+.appknox-logo {
+  margin-top: 100px;
+  text-align: center; }
 
-blockquote, q {
-  quotes: none; }
+.main-heading {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 36px;
+  text-decoration: underline; }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none; }
+.sub-heading {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px; }
 
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent; }
+.app-name {
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 70px; }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+.doc-description p {
+  font-size: 22px;
+  margin-top: 70px; }
 
-th {
-  font-weight: bold;
-  vertical-align: bottom; }
+.heading-container {
+  border: 2px solid #EF4836;
+  border-radius: 5px;
+  color: #EF4836;
+  padding: 2px;
+  margin: 40px auto;
+  min-width: 30%;
+  width: 50%;
+  max-width: 70%;
+  text-align: center; }
 
-td {
-  font-weight: normal;
-  vertical-align: top; }
+.content-table, .app-details, .audit-table {
+  margin: auto;
+  width: 70%;
+  border: 1px solid #000;
+  border-collapse: collapse; }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; }
+.content-table tr td, .app-details tr td, .audit-table tr td {
+  border-bottom: 1px solid #000; }
 
-input, select {
-  vertical-align: middle; }
+.content-table a, .app-details a, .audit-table a {
+  text-decoration: none;
+  color: #6b6b6b; }
 
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: pre-line;
-  word-wrap: break-word; }
+.main-table-heading a {
+  margin-left: 10px; }
 
-input[type="radio"] {
-  vertical-align: text-bottom; }
+.sub-table-heading a {
+  margin-left: 20px; }
 
-input[type="checkbox"] {
-  vertical-align: bottom; }
+.app-details {
+  width: 90%; }
 
-select, input, textarea {
-  font: 99% sans-serif; }
+.app-details tr td, .audit-table tr td {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding-left: 10px; }
 
-table {
-  font-size: inherit;
-  font: 100%; }
+.sub-heading-container {
+  padding: 5px;
+  border: 2px solid #EF4836;
+  border-radius: 5px;
+  color: #EF4836;
+  width: 30%;
+  text-align: center; }
 
-small {
-  font-size: 85%; }
+.audit-table {
+  width: 100%;
+  text-align: center; }
 
-strong {
-  font-weight: bold; }
+.risk-type {
+  border-radius: 290486px;
+  width: 50px;
+  font-size: 12px;
+  text-align: center; }
 
-td, td img {
-  vertical-align: top; }
+.risk-type-container {
+  padding-right: 10px; }
 
-pre, code {
-  font-family: "Lato", monospace, sans-serif; }
+.sub-table {
+  margin-top: 50px; }
 
-label,
-input[type=button],
-input[type=submit],
-input[type=file],
-button {
-  cursor: pointer; }
+.risk-tag {
+  padding: 7px;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px; }
 
-button, input, select, textarea {
-  margin: 0; }
+.analysis-type {
+  border-left: 2px solid #C0C0C0;
+  border-top: 2px solid #C0C0C0;
+  width: 30%;
+  margin-top: 20px; }
 
-button,
-input[type=button] {
-  width: auto;
-  overflow: visible; }
+.analysis-type h5 {
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-top: 5px; }
 
 /*# sourceMappingURL=report.css.map */
