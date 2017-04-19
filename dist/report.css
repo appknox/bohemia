@@ -145,7 +145,7 @@ html {
   margin-top: 50px; }
 
 .heading-container {
-  border: 2px solid #EF4836;
+  border: 1px solid #EF4836;
   border-radius: 5px;
   color: #EF4836;
   padding: 2px;
@@ -188,7 +188,7 @@ html {
 
 .sub-heading-container {
   padding: 5px;
-  border: 2px solid #EF4836;
+  border: 1px solid #EF4836;
   border-radius: 5px;
   color: #EF4836;
   width: 40%;
