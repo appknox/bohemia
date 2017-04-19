@@ -1,8 +1,8 @@
-@import "utilities/variables"
+@import "utilities/utilities"
 
 html
-  color: rgb(107, 107, 107)
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: $family-sans-serif
+  color: $grey
 
 .appknox-logo
   margin-top: 100px
@@ -12,6 +12,7 @@ html
   margin-top: 150px
   text-align: center
   font-size: 36px
+  font-weight: 100
   text-decoration: underline
 
 .sub-heading
@@ -22,24 +23,26 @@ html
 
 .app-name
   font-weight: 900
-  font-size: 28px
+  font-size: 24px
   text-align: center
   margin-top: 70px
 
 .doc-description p
-  font-size: 22px
+  font-size: 18px
   margin-top: 70px
 
 .heading-container
-  border: 2px solid #EF4836
+  border: 2px solid $red
   border-radius: 5px
-  color: #EF4836
-  padding: 2px
+  color: $red
+  padding: 5px
   margin: 40px auto
   min-width: 30%
   width: 50%
   max-width: 70%
   text-align: center
+  font-weight: 100!important
+  font-size: 32px
 
 .content-table
   margin: auto
@@ -72,9 +75,9 @@ html
 
 .sub-heading-container
   padding: 5px
-  border: 2px solid #EF4836
+  border: 2px solid $red
   border-radius: 5px
-  color: #EF4836
+  color: $red
   width: 30%
   text-align: center
 

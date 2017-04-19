@@ -1,6 +1,119 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
 html {
-  color: #6b6b6b;
-  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  overflow-y: scroll;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  font-weight: bold;
+  vertical-align: bottom; }
+
+td {
+  font-weight: normal;
+  vertical-align: top; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word; }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+input[type="checkbox"] {
+  vertical-align: bottom; }
+
+select, input, textarea {
+  font: 99% sans-serif; }
+
+table {
+  font-size: inherit;
+  font: 100%; }
+
+small {
+  font-size: 85%; }
+
+strong {
+  font-weight: bold; }
+
+td, td img {
+  vertical-align: top; }
+
+pre, code {
+  font-family: "Lato", monospace, sans-serif; }
+
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer; }
+
+button, input, select, textarea {
+  margin: 0; }
+
+button,
+input[type=button] {
+  width: auto;
+  overflow: visible; }
+
+html {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #6B6B6B; }
 
 .appknox-logo {
   margin-top: 100px;
@@ -10,6 +123,7 @@ html {
   margin-top: 150px;
   text-align: center;
   font-size: 36px;
+  font-weight: 100;
   text-decoration: underline; }
 
 .sub-heading {
@@ -20,24 +134,26 @@ html {
 
 .app-name {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   margin-top: 70px; }
 
 .doc-description p {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 70px; }
 
 .heading-container {
   border: 2px solid #EF4836;
   border-radius: 5px;
   color: #EF4836;
-  padding: 2px;
+  padding: 5px;
   margin: 40px auto;
   min-width: 30%;
   width: 50%;
   max-width: 70%;
-  text-align: center; }
+  text-align: center;
+  font-weight: 100 !important;
+  font-size: 32px; }
 
 .content-table, .app-details, .audit-table {
   margin: auto;
