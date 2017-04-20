@@ -29,9 +29,12 @@ html
   font-weight: 300
   font-weight: bold
 
-.doc-description p
-  font-size: 14px
-  margin-top: 50px
+.doc-description
+  p
+    font-size: 14px
+    margin-top: 50px
+  p:first-child
+    margin-top: 150px
 
 .heading-container
   border: 1px solid $red
@@ -45,6 +48,10 @@ html
   text-align: center
   font-weight: 200!important
   font-size: 28px
+
+.vulnerability-heading
+  @extend .heading-container
+  width: 70%
 
 .content-table
   margin: auto
@@ -131,3 +138,6 @@ html
   margin-left: 10px
   margin-top: 0px
   padding-top: 5px
+
+pre
+  margin-top: 20px
