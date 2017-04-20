@@ -141,7 +141,7 @@ html {
   font-weight: bold; }
 
 .doc-description p {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 50px; }
 .doc-description p:first-child {
   margin-top: 150px; }
@@ -164,23 +164,34 @@ html {
 
 .content-table, .app-details, .audit-table {
   margin: auto;
-  width: 70%;
+  width: 80%;
   border: 1px solid #000;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  counter-reset: rowNumber; }
 
 .content-table tr td, .app-details tr td, .audit-table tr td {
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #000;
+  padding: 5px; }
 
 .content-table a, .app-details a, .audit-table a {
   text-decoration: none;
   color: #6b6b6b;
-  font-size: 12px !important; }
+  font-size: 16px !important; }
 
-.main-table-heading a {
-  margin-left: 10px; }
+.main-table-heading {
+  counter-increment: rowNumber; }
+  .main-table-heading td:first-child::before {
+    content: counter(rowNumber) ")"; }
+  .main-table-heading a {
+    margin-left: 10px;
+    font-weight: bolder; }
 
+.sub-table-heading td:first-child::before {
+  content: "-";
+  margin-left: 30px; }
 .sub-table-heading a {
-  margin-left: 20px; }
+  margin-left: 10px;
+  font-weight: normal; }
 
 .app-details {
   width: 100%; }
