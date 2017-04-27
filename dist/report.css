@@ -179,13 +179,9 @@ html {
   color: #6b6b6b;
   font-size: 16px !important; }
 
-.main-table-heading {
-  counter-increment: rowNumber; }
-  .main-table-heading td:first-child::before {
-    content: counter(rowNumber) ")"; }
-  .main-table-heading a {
-    margin-left: 10px;
-    font-weight: bolder; }
+.main-table-heading a {
+  margin-left: 10px;
+  font-weight: bolder; }
 
 .sub-table-heading td:first-child::before {
   content: "-";
@@ -254,6 +250,7 @@ html {
   margin-bottom: 20px; }
 
 .analysis-type h5 {
+  font-weight: 800;
   margin-left: 10px;
   margin-top: 0px;
   padding-top: 5px; }
