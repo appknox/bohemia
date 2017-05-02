@@ -351,7 +351,12 @@ html {
   page-break-before: always; }
 
 ul {
-  list-style: disc inside none !important;
+  list-style: disc inside none !important; }
+
+ol {
+  list-style: decimal inside none !important; }
+
+ul, ol {
   margin-left: 10px;
   margin-top: 10px; }
 
