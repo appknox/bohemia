@@ -112,6 +112,101 @@ input[type=button] {
   overflow: visible; }
 
 html {
+  background-color: white;
+  font-size: 14px;
+  font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility; }
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+code,
+pre {
+  font-smoothing: auto;
+  font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
+  line-height: 1.25; }
+
+body {
+  color: #6B6B6B;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.42857; }
+
+a {
+  color: #FE4D3F;
+  cursor: pointer;
+  text-decoration: none;
+  transition: none 86ms ease-out; }
+  a:hover {
+    color: #570700; }
+
+code {
+  background-color: white;
+  color: #EF4836;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 1px 2px 2px; }
+
+hr {
+  border-top-color: #fff2f1;
+  margin: 40px 0; }
+
+img {
+  max-width: 100%; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: baseline; }
+
+small {
+  font-size: 11px; }
+
+span {
+  font-style: inherit;
+  font-weight: inherit; }
+
+strong {
+  color: #570700;
+  font-weight: 500; }
+
+pre {
+  background-color: white;
+  color: #6B6B6B;
+  white-space: pre;
+  word-wrap: normal; }
+  pre code {
+    background-color: white;
+    color: #6B6B6B;
+    display: block;
+    overflow-x: auto;
+    padding: 16px 20px; }
+
+table {
+  width: 100%; }
+  table td,
+  table th {
+    text-align: left;
+    vertical-align: top; }
+  table th {
+    color: #6B6B6B; }
+
+html {
   font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #6B6B6B; }
 
@@ -141,7 +236,6 @@ html {
   font-weight: bold; }
 
 .doc-description p {
-  font-size: 16px;
   margin-top: 50px; }
 .doc-description p:first-child {
   margin-top: 150px; }
@@ -215,7 +309,6 @@ html {
   width: 100%;
   text-align: center; }
   .audit-table p {
-    margin-top: 20px;
     font-size: 12px; }
 
 .risk-type {
@@ -254,8 +347,5 @@ html {
   margin-left: 10px;
   margin-top: 0px;
   padding-top: 5px; }
-
-pre {
-  margin-top: 20px; }
 
 /*# sourceMappingURL=report.css.map */
