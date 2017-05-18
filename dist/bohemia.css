@@ -1897,4 +1897,25 @@ table.audit-table tr td.risk-type {
   padding-left: 100px;
   padding-right: 100px; }
 
+.progress {
+  width: 100%;
+  height: 20px; }
+
+.progress-text {
+  text-align: center;
+  position: relative;
+  color: #000; }
+
+.progress-wrap {
+  width: 10%;
+  background: #80C081;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px; }
+  .progress-wrap .progress-bar {
+    background: #ddd;
+    position: absolute;
+    top: 0; }
+
 /*# sourceMappingURL=bohemia.css.map */
