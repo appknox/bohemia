@@ -1,6 +1,6 @@
 {
   "name": "bohemia",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Yet another CSS framework. Baked with goodness of SASS, Bourbon & flexbox-based grid.",
   "main": "index.js",
   "scripts": {
