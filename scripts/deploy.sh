@@ -10,3 +10,4 @@
 npm version patch
 git push
 git push origin --tags
+npm publish
