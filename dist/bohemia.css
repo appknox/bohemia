@@ -1904,7 +1904,7 @@ table.audit-table tr td.risk-type {
 .progress-text {
   text-align: center;
   position: relative;
-  color: #000; }
+  color: #6B6B6B; }
 
 .progress-wrap {
   width: 10%;
@@ -1914,7 +1914,7 @@ table.audit-table tr td.risk-type {
   position: relative;
   border-radius: 15px; }
   .progress-wrap .progress-bar {
-    background: #ddd;
+    background: #dedede;
     position: absolute;
     top: 0; }
 
