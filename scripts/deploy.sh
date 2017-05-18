@@ -7,5 +7,5 @@
 #
 
 
-npm version --patch
+npm version patch
 git push origin --tags
