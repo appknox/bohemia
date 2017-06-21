@@ -338,7 +338,7 @@ html {
 .analysis-type {
   border-left: 2px solid #C0C0C0;
   border-top: 2px solid #C0C0C0;
-  margin-top: 130px;
+  margin-top: 20px;
   margin-bottom: 20px; }
 
 .analysis-type h5 {
@@ -398,6 +398,10 @@ p {
   font-size: 12px;
   padding: 2px;
   font-weight: bold;
+}
+
+.description {
+  margin-bottom: 130px
 }
 
 
