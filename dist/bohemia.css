@@ -1622,6 +1622,8 @@ h6 {
     justify-content: center; }
   .tabs.is-right ul {
     justify-content: flex-end; }
+  .tabs.is-boxed ul {
+    border-bottom: 1px solid #EF4836; }
   .tabs.is-boxed a {
     border: 1px solid transparent;
     border-radius: 3px 3px 0 0;
@@ -1629,10 +1631,10 @@ h6 {
     padding-top: 5px; }
     .tabs.is-boxed a:hover {
       background-color: white;
-      border-bottom-color: #fff2f1; }
+      border-bottom-color: #EF4836; }
   .tabs.is-boxed li.is-active a {
-    background-color: #fff2f1;
-    border-color: #fff2f1;
+    background-color: #fff;
+    border-color: #EF4836;
     border-bottom-color: transparent !important; }
   .tabs.is-fullwidth li {
     flex-grow: 1; }
