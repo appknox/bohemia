@@ -6,12 +6,16 @@
     color: inherit
 
 .message-header
-  border-radius: $radius $radius 0 0
-  color: $text
+  background-color: #fff
+  border-width: 2px 2px 2px 15px
+  border-style: solid
+  color: $black
+  border-radius: $radius-large
   padding: 7px 10px
   strong
     color: inherit
   & + .message-body
+    border-width: 2px
     border-radius: 0 0 $radius $radius
     border-top: none
 
@@ -28,11 +32,6 @@
     &.is-#{$name}
       // background-color: lighten($color, $lightning)
       .message-header
-        background-color: $color
-        color: $color-invert
+        border-color: $color
       .message-body
         border-color: $color
-        @if (colorLuminance($color) > 0.8)
-          color: desaturate(lighten(darken($color, 100%), 40%), 40%)
-        @else
-          color: desaturate(lighten(darken($color, 100%), 50%), 30%)
