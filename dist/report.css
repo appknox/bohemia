@@ -376,8 +376,8 @@ p {
   cursor: pointer;
   width: 80px;
   text-align: center;
-  margin-left: 560px;
-  margin-top: -55px
+  margin-left: 75px;
+  margin-top: 25px
 }
 
 .cvss-box h1 {
@@ -390,7 +390,22 @@ p {
 }
 
 .cvss-vector {
-  float: left;
+  width: 230px;
+  margin: auto
+}
+
+.cvss-vector h3, .cvss-container h3, .owasp-categories h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cvss-container {
+  width: 230px;
+  margin: auto;
+}
+
+.cvss-vector ul {
+  margin-left: 50px
 }
 
 .cvss-vector ul li {
@@ -400,8 +415,39 @@ p {
   font-weight: bold;
 }
 
-.description {
-  margin-bottom: 130px
+.owasp-categories {
+  width: 230px;
+}
+
+.owasp-list {
+  margin-left: 20px;
+  margin-top: 10px
+}
+
+.bold-test {
+  font-weight: bold
+}
+
+.scan-container {
+  padding-left: 300px;
+  padding-top: 20px
+}
+
+.scan-tag {
+  background-color: #6B6B6B;
+  width: 70px;
+  height: 25px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.scan-tag:nth-child(3), .scan-tag:nth-child(4) {
+  position: relative;
+  top: 10px
 }
 
 
