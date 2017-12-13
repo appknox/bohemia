@@ -428,5 +428,27 @@ p {
   font-weight: bold
 }
 
+.scan-container {
+  padding-left: 300px;
+  padding-top: 20px
+}
+
+.scan-tag {
+  background-color: #6B6B6B;
+  width: 70px;
+  height: 25px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.scan-tag:nth-child(3), .scan-tag:nth-child(4) {
+  position: relative;
+  top: 10px
+}
+
 
 /*# sourceMappingURL=report.css.map */
