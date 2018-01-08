@@ -210,12 +210,30 @@ html {
   font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #6B6B6B; }
 
-.appknox-logo {
-  margin-top: 100px;
+.main-logo {
   text-align: center; }
 
+.appknox-logo {
+  margin-top: 100px;
+  margin-bottom: 150px; }
+
+.whitelabel-company-logo {
+  display: block;
+  height: 200px;
+  padding: 70px 0 0;
+  text-align: center;
+  margin: auto; }
+  .whitelabel-company-logo img {
+    margin: auto;
+    max-width: 340px;
+    max-height: 100%; }
+
+.whitelabel-poweredby-logo {
+  display: block;
+  margin: 70px auto 100px;
+  max-width: 120px; }
+
 .main-heading {
-  margin-top: 150px;
   text-align: center;
   font-size: 36px;
   font-weight: 300;
