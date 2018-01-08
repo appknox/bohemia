@@ -32,7 +32,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none; }
 
 a {
@@ -94,7 +94,7 @@ td, td img {
   vertical-align: top; }
 
 pre, code {
-  font-family: "Lato", monospace, sans-serif; }
+  font-family: 'Lato', monospace, sans-serif; }
 
 label,
 input[type=button],
@@ -237,6 +237,7 @@ html {
 
 .doc-description p {
   margin-top: 50px; }
+
 .doc-description p:first-child {
   margin-top: 150px; }
 
@@ -280,6 +281,7 @@ html {
 .sub-table-heading td:first-child::before {
   content: "-";
   margin-left: 30px; }
+
 .sub-table-heading a {
   margin-left: 10px;
   font-weight: normal; }
@@ -377,32 +379,23 @@ p {
   width: 80px;
   text-align: center;
   margin-left: 560px;
-  margin-top: -55px
-}
+  margin-top: -55px; }
+  .cvss-box h1 {
+    font-size: 48px; }
 
-.cvss-box h1 {
-  font-size: 48px;
-}
+.cvss-vector {
+  float: left; }
+  .cvss-vector ul li {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 2px;
+    font-weight: bold; }
 
 .tag.is-critical {
   background-color: #000;
-  color: #fff
-}
-
-.cvss-vector {
-  float: left;
-}
-
-.cvss-vector ul li {
-  list-style-type: none;
-  font-size: 12px;
-  padding: 2px;
-  font-weight: bold;
-}
+  color: #fff; }
 
 .description {
-  margin-bottom: 130px
-}
-
+  margin-bottom: 130px; }
 
 /*# sourceMappingURL=report.css.map */
