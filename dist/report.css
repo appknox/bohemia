@@ -32,7 +32,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none; }
 
 a {
@@ -94,7 +94,7 @@ td, td img {
   vertical-align: top; }
 
 pre, code {
-  font-family: 'Lato', monospace, sans-serif; }
+  font-family: "Lato", monospace, sans-serif; }
 
 label,
 input[type=button],
@@ -227,7 +227,6 @@ html {
     margin: auto;
     max-width: 340px;
     max-height: 100%; }
-
 .whitelabel-poweredby-logo {
   display: block;
   margin: 70px auto 100px;
@@ -255,7 +254,6 @@ html {
 
 .doc-description p {
   margin-top: 50px; }
-
 .doc-description p:first-child {
   margin-top: 150px; }
 
@@ -299,7 +297,6 @@ html {
 .sub-table-heading td:first-child::before {
   content: "-";
   margin-left: 30px; }
-
 .sub-table-heading a {
   margin-left: 10px;
   font-weight: normal; }
@@ -396,24 +393,57 @@ p {
   cursor: pointer;
   width: 80px;
   text-align: center;
-  margin-left: 560px;
-  margin-top: -55px; }
+  margin-left: 75px;
+  margin-top: 25px; }
   .cvss-box h1 {
     font-size: 48px; }
-
+.cvss-container {
+  width: 230px;
+  margin: auto; }
 .cvss-vector {
-  float: left; }
-  .cvss-vector ul li {
-    list-style-type: none;
-    font-size: 12px;
-    padding: 2px;
-    font-weight: bold; }
+  float: left;
+  width: 230px;
+  margin: auto; }
+  .cvss-vector ul {
+    margin-left: 50px; }
+    .cvss-vector ul li {
+      list-style-type: none;
+      font-size: 12px;
+      padding: 2px;
+      font-weight: bold; }
+
+.cvss-vector h3, .cvss-container h3, .owasp-categories h3 {
+  text-align: center;
+  font-weight: bold; }
 
 .tag.is-critical {
   background-color: #000;
   color: #fff; }
 
-.description {
-  margin-bottom: 130px; }
+.owasp-categories {
+  width: 230px; }
+.owasp-list {
+  margin-left: 20px;
+  margin-top: 10px; }
+
+.scan-container {
+  padding-left: 300px;
+  padding-top: 20px; }
+.scan-tag {
+  background-color: #6B6B6B;
+  width: 70px;
+  height: 25px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 30px; }
+  .scan-tag:nth-child(3) {
+    position: relative;
+    top: 10px; }
+  .scan-tag:nth-child(4) {
+    position: relative;
+    top: 10px; }
 
 /*# sourceMappingURL=report.css.map */
