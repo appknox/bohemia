@@ -198,21 +198,60 @@ p
     cursor: pointer
     width: 80px
     text-align: center
-    margin-left: 560px
-    margin-top: -55px
+    margin-left: 75px
+    margin-top: 25px
     h1
       font-size: 48px
+  &-container
+    width: 230px
+    margin: auto
   &-vector
     float: left
-    ul li
-      list-style-type: none
-      font-size: 12px
-      padding: 2px
-      font-weight: bold
+    width: 230px
+    margin: auto
+    ul
+      margin-left: 50px
+      li
+        list-style-type: none
+        font-size: 12px
+        padding: 2px
+        font-weight: bold
 
-.tag.is-critical
-  background-color: #000
-  color: #fff
+.cvss-vector, .cvss-container, .owasp-categories
+  h3
+    text-align: center
+    font-weight: bold
 
-.description
-  margin-bottom: 130px
+.owasp
+  &-categories
+    width: 230px
+    h3
+      a
+        border: 1px solid #FE4D3F
+        border-radius: 50%
+        width: 20px
+        padding: 2px
+  &-list
+    margin-left: 20px
+    margin-top: 10px
+
+.scan
+  &-container
+    padding-left: 300px
+    padding-top: 20px
+  &-tag
+    background-color: #6B6B6B
+    width: 70px
+    height: 25px
+    color: #fff
+    padding: 5px
+    text-align: center
+    border-radius: 5px
+    font-size: 12px
+    margin-top: 30px
+    &:nth-child(3)
+      position: relative
+      top: 10px
+    &:nth-child(4)
+      position: relative
+      top: 10px
