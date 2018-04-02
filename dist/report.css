@@ -340,6 +340,14 @@ html {
   vertical-align: middle;
   width: 100px; }
 
+.audit-table .cvss-text h1 {
+  font-size: 40px;
+  margin-left: 15px; }
+.audit-table .scan-tag {
+  font-size: 10px; }
+  .audit-table .scan-tag:nth-child(3), .audit-table .scan-tag:nth-child(4) {
+    top: 0px; }
+
 .sub-table {
   margin-top: 50px; }
 
@@ -415,10 +423,6 @@ p {
 .cvss-vector h3, .cvss-container h3, .owasp-categories h3 {
   text-align: center;
   font-weight: bold; }
-
-.tag.is-critical {
-  background-color: #000;
-  color: #fff; }
 
 .owasp-categories {
   width: 230px; }
