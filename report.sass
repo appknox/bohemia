@@ -304,3 +304,44 @@ p
       span.metric-value
         display: inline-block
         width: 300px
+    &:nth-child(3)
+      position: relative
+      top: 10px
+    &:nth-child(4)
+      position: relative
+      top: 10px
+
+// utils
+.color
+  &-passed, &-success
+    color: $success
+  &-low, &-info
+    color: $info
+  &-medium, &-warning
+    color: $warning
+  &-high, &-danger
+    color: $orange
+  &-critical
+    color: $red
+  &-unknown
+    color: $grey
+
+.fill
+  &-passed, &-success
+    color: $white
+    background: $success
+  &-low, &-info
+    color: $white
+    background: $info
+  &-medium, &-warning
+    color: $white
+    background: $warning
+  &-high, &-danger
+    color: $white
+    background: $orange
+  &-critical
+    color: $white
+    background: $red
+  &-unknown
+    color: $white
+    background: $grey
