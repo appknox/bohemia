@@ -220,7 +220,7 @@ html {
   .company-logo img {
     margin: auto;
     max-height: 170px;
-    max-width: 500px }
+    max-width: 500px; }
 
 .whitelabel-company-logo {
   display: block;
