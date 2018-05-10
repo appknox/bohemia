@@ -220,7 +220,7 @@ html {
   .company-logo img {
     margin: auto;
     max-height: 170px;
-    max-width: 500px }
+    max-width: 500px; }
 
 .whitelabel-company-logo {
   display: block;
@@ -452,12 +452,44 @@ p {
   text-align: center;
   border-radius: 5px;
   font-size: 12px;
-  margin-top: 30px; }
-  .scan-tag:nth-child(3) {
-    position: relative;
-    top: 10px; }
-  .scan-tag:nth-child(4) {
-    position: relative;
-    top: 10px; }
+  margin-top: 30px;
+  margin-left: 5px; }
+
+.bold-black-text {
+  font-weight: bold;
+  color: #000; }
+
+.pcidss-heading {
+  margin-top: 20px; }
+
+.pcidss-table {
+  position: relative;
+  top: -20px; }
+  .pcidss-table .metric-key {
+    padding-left: 115px;
+    width: 200px; }
+  .pcidss-table .metric-value {
+    width: 350px; }
+  .pcidss-table .metric-description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #000; }
+
+.regulatory-table {
+  margin-top: 20px; }
+  .regulatory-table tr td {
+    padding-top: 10px; }
+  .regulatory-table ul {
+    margin-top: 0px; }
+    .regulatory-table ul li {
+      margin-left: -10px;
+      list-style-type: none; }
+      .regulatory-table ul li span.metric-key {
+        display: inline-block;
+        width: 200px;
+        vertical-align: top; }
+      .regulatory-table ul li span.metric-value {
+        display: inline-block;
+        width: 300px; }
 
 /*# sourceMappingURL=report.css.map */
