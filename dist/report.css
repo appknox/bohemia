@@ -459,6 +459,22 @@ p {
   font-weight: bold;
   color: #000; }
 
+.pcidss-heading {
+  margin-top: 20px; }
+
+.pcidss-table {
+  position: relative;
+  top: -20px; }
+  .pcidss-table .metric-key {
+    padding-left: 115px;
+    width: 200px; }
+  .pcidss-table .metric-value {
+    width: 350px; }
+  .pcidss-table .metric-description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #000; }
+
 .regulatory-table {
   margin-top: 20px; }
   .regulatory-table tr td {
@@ -475,9 +491,5 @@ p {
       .regulatory-table ul li span.metric-value {
         display: inline-block;
         width: 300px; }
-      .regulatory-table ul li .metric-description {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        color: #000; }
 
 /*# sourceMappingURL=report.css.map */
