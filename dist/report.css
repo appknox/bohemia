@@ -529,7 +529,7 @@ p {
 .color-critical {
   color: #EF4836; }
 
-.color-unknown {
+.color-untested {
   color: #6B6B6B; }
 
 .fill-passed, .fill-success {
@@ -552,7 +552,7 @@ p {
   color: #fff;
   background: #EF4836; }
 
-.fill-unknown {
+.fill-untested {
   color: #fff;
   background: #6B6B6B; }
 
