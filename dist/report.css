@@ -232,6 +232,7 @@ html {
     margin: auto;
     max-width: 340px;
     max-height: 100%; }
+
 .whitelabel-poweredby-logo {
   display: block;
   margin: 70px auto 100px;
@@ -259,6 +260,7 @@ html {
 
 .doc-description p {
   margin-top: 50px; }
+
 .doc-description p:first-child {
   margin-top: 150px; }
 
@@ -272,7 +274,7 @@ html {
   width: 50%;
   max-width: 70%;
   text-align: center;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   font-size: 28px; }
 
 .vulnerability-heading {
@@ -302,6 +304,7 @@ html {
 .sub-table-heading td:first-child::before {
   content: "-";
   margin-left: 30px; }
+
 .sub-table-heading a {
   margin-left: 10px;
   font-weight: normal; }
@@ -322,7 +325,7 @@ html {
   color: #EF4836;
   width: 40%;
   text-align: center;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px; }
@@ -335,19 +338,27 @@ html {
 
 .risk-type {
   width: 90px;
+  float: left;
   border-radius: 20px;
   font-size: 12px;
   text-align: center;
   padding: 5px; }
 
+.risk-type-icon {
+  width: 33px;
+  float: left;
+  padding-top: 6px;
+  padding-left: 6px; }
+
 .risk-type-container {
-  padding-right: 10px;
+  padding-right: 0 !important;
   vertical-align: middle;
-  width: 100px; }
+  width: 123px; }
 
 .audit-table .cvss-text h1 {
   font-size: 40px;
   margin-left: 15px; }
+
 .audit-table .scan-tag {
   font-size: 10px; }
   .audit-table .scan-tag:nth-child(3), .audit-table .scan-tag:nth-child(4) {
@@ -362,8 +373,15 @@ html {
   width: 200px;
   text-align: center;
   border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  float: left; }
+  .risk-tag-container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+.risk-tag-icon {
+  margin-left: 200px;
+  padding-top: 8px;
+  padding-left: 8px; }
 
 .analysis-type {
   border-left: 2px solid #C0C0C0;
@@ -410,9 +428,11 @@ p {
   margin-top: 25px; }
   .cvss-box h1 {
     font-size: 48px; }
+
 .cvss-container {
   width: 230px;
   margin: auto; }
+
 .cvss-vector {
   float: left;
   width: 230px;
@@ -436,13 +456,15 @@ p {
     border-radius: 50%;
     width: 20px;
     padding: 2px; }
+
 .owasp-list {
   margin-left: 20px;
   margin-top: 10px; }
 
 .scan-container {
-  padding-left: 300px;
-  padding-top: 20px; }
+  text-align: right;
+  padding-top: 30px; }
+
 .scan-tag {
   background-color: #6B6B6B;
   width: 70px;
@@ -453,7 +475,7 @@ p {
   border-radius: 5px;
   font-size: 12px;
   margin-top: 30px;
-  margin-left: 5px; }
+  margin-left: 4px; }
 
 .bold-black-text {
   font-weight: bold;
@@ -491,5 +513,64 @@ p {
       .regulatory-table ul li span.metric-value {
         display: inline-block;
         width: 300px; }
+
+.color-passed, .color-success {
+  color: #80C081; }
+
+.color-low, .color-info {
+  color: #2CC2F8; }
+
+.color-medium, .color-warning {
+  color: #F5D76E; }
+
+.color-high, .color-danger {
+  color: #FF8C00; }
+
+.color-critical {
+  color: #EF4836; }
+
+.color-unknown {
+  color: #6B6B6B; }
+
+.fill-passed, .fill-success {
+  color: #fff;
+  background: #80C081; }
+
+.fill-low, .fill-info {
+  color: #fff;
+  background: #2CC2F8; }
+
+.fill-medium, .fill-warning {
+  color: #fff;
+  background: #F5D76E; }
+
+.fill-high, .fill-danger {
+  color: #fff;
+  background: #FF8C00; }
+
+.fill-critical {
+  color: #fff;
+  background: #EF4836; }
+
+.fill-unknown {
+  color: #fff;
+  background: #6B6B6B; }
+
+.audit-ignored-label {
+  color: #c0c0c0;
+  border: 1px solid #c0c0c0;
+  padding: 3px;
+  width: 90px;
+  display: block;
+  text-align: center;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 10px; }
+
+.disabled, .disabled .cvss-text {
+  color: #c0c0c0; }
+
+.disabled .risk-type, .disabled .scan-tag {
+  background: #c0c0c0; }
 
 /*# sourceMappingURL=report.css.map */
