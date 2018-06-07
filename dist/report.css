@@ -284,6 +284,8 @@ html {
 .authors {
   margin-top: 145px;
   height: 70px; }
+  .authors-extended {
+    margin-top: 220px; }
   .authors td {
     width: 50%;
     vertical-align: middle; }
