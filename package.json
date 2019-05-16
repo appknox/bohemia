@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/appknox/bohemia/issues"
   },
-  "homepage": "https://github.com/appknox/bohemia#readme"
+  "homepage": "https://github.com/appknox/bohemia#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
