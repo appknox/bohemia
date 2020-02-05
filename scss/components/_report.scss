@@ -1,0 +1,195 @@
+.align-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.margin-top10 {
+  margin-top: 10px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
+.margin-left35 {
+  margin-left: 35px;
+}
+
+.margin-left50 {
+  margin-left: 50px;
+}
+
+.margin-top50 {
+  margin-top: 50px;
+}
+
+.margin-top100 {
+  margin-top: 100px;
+}
+
+.underline {
+  border-bottom: 2px solid #6B6B6B;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.mini-container p {
+  padding: 0 50px 0 50px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.heading-container {
+  border: 2px solid #EF4836;
+  border-radius: 5px;
+  color: #EF4836;
+  padding: 2px;
+  margin: 40px auto;
+  flex: none;
+  min-width: 30%;
+}
+
+.content-table ol li {
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #000;
+  list-style-position: inside;
+  padding: 5px;
+}
+
+.content-table ol.main-heading li {
+  list-style-type: upper-roman;
+  padding-left: 10px;
+}
+
+.content-table ol.main-heading li a {
+  cursor: pointer;
+  color: rgb(107, 107, 107);
+}
+
+.content-table ol.main-heading li a:hover {
+  color: darken(rgb(107, 107, 107), 50%);
+}
+
+.content-table ol.sub-topic li {
+  list-style-type: lower-alpha;
+  padding-left: 30px;
+}
+
+.content-table ol.sub-topic li.last-child {
+  border-bottom: 1px solid #000;
+}
+
+.content-table ol.sub-heading li {
+  list-style-type: lower-roman;
+  padding-left: 50px;
+}
+
+table.audit-table {
+  border-bottom: 1px solid #6B6B6B;
+}
+
+table.audit-table tr td p {
+  font-size: 14px;
+}
+
+table.audit-table tr td.risk-type {
+  width: 20%;
+  vertical-align: middle;
+}
+
+.report-container table {
+  width: 95%;
+  margin: auto;
+  border-bottom: 1px solid #6B6B6B;
+}
+
+.report-container table tr td {
+  border-color: #6B6B6B;
+  text-align: center;
+}
+
+.report-container table tr p {
+  font-size: 13px;
+  text-align: left;
+}
+
+.report-container p {
+  font-size: 15px;
+}
+
+.sub-heading-container {
+  padding: 5px;
+  margin: 45px;
+  border: 2px solid #EF4836;
+  border-radius: 5px;
+  color: #EF4836;
+  flex: none;
+  min-width: 30%;
+}
+
+.risk-tag {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.bucket-list {
+  @extend .sub-heading-container;
+
+  border: none;
+  margin: 20px;
+}
+
+.bucket-list ol li {
+  list-style-type: decimal;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.analysis-type {
+  margin-left: 40px;
+  border-left: 2px solid #C0C0C0;
+  border-top: 2px solid #C0C0C0;
+  flex: none;
+  min-width: 20%;
+}
+
+.sub-topic-heading ol li {
+  margin-left: 60px;
+  font-size: 15px;
+}
+
+.link-tag {
+  margin-top: -70px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.pre-code {
+  padding: 10px 0 0 10px;
+  background-color: #f5f5f5;
+  color: #FE4D3F;
+}
+
+.mini-container {
+  padding-left: 100px;
+  padding-right: 100px;
+}

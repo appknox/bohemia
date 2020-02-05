@@ -1,0 +1,29 @@
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  button {
+    display: block;
+    min-width: 32px;
+    padding: 3px 8px;
+  }
+
+  span {
+    color: $text-light;
+    display: block;
+    margin: 0 4px;
+  }
+
+  li {
+    margin: 0 2px;
+  }
+
+  ul {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+}

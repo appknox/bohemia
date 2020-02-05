@@ -1,0 +1,39 @@
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 10px;
+
+  &.is-full {
+    flex: none;
+    width: 100%;
+  }
+
+  &.is-half {
+    flex: none;
+    width: 50%;
+  }
+
+  &.is-one-third {
+    flex: none;
+    width: 33.3333%;
+  }
+
+  &.is-one-quarter {
+    flex: none;
+    width: 25%;
+  }
+
+  &.is-one-sixth {
+    flex: none;
+    width: 16.6666%;
+  }
+}
+
+.columns {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,61 @@
+@mixin arrow($color) {
+  border: 1px solid $color;
+  border-right: 0;
+  border-top: 0;
+  content: " ";
+  display: block;
+  height: 7px;
+  pointer-events: none;
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 7px;
+}
+
+@mixin center($size) {
+  left: 50%;
+  margin-left: -($size / 2);
+  margin-top: -($size / 2);
+  position: absolute;
+  top: 50%;
+}
+
+@mixin fa($size, $dimensions) {
+  display: inline-block;
+  font-size: $size;
+  height: $dimensions;
+  line-height: $dimensions;
+  text-align: center;
+  vertical-align: top;
+  width: $dimensions;
+}
+
+@mixin overlay($offset: 0) {
+  bottom: $offset;
+  left: $offset;
+  position: absolute;
+  right: $offset;
+  top: $offset;
+}
+
+@mixin placeholder {
+  $placeholders: ":-moz" ":-webkit-input" "-moz" "-ms-input";
+
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+
+@mixin replace($background, $width, $height) {
+  background-color: $background;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: $width $height;
+  display: block;
+  height: $height;
+  outline: none;
+  overflow: hidden;
+  text-indent: -290486px;
+  width: $width;
+}

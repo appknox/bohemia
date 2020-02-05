@@ -51,5 +51,4 @@ build-iPhoneSimulator/
 
 neat/
 .sass-cache/
-*.map
 node_modules/
