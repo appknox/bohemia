@@ -4,7 +4,8 @@
   "description": "Yet another CSS framework. Baked with goodness of SASS, Bourbon & flexbox-based grid.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "url": "https://github.com/appknox/bohemia/issues"
   },
   "homepage": "https://github.com/appknox/bohemia#readme",
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }
