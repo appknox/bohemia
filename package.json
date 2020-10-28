@@ -1,6 +1,6 @@
 {
   "name": "bohemia",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Yet another CSS framework. Baked with goodness of SASS, Bourbon & flexbox-based grid.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/appknox/bohemia#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   }
 }

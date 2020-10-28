@@ -1414,10 +1414,6 @@ button.is-loading:after, [type='button'].is-loading:after, [type='reset'].is-loa
   border-color: #FE4D3F;
 }
 
-.select select::ms-expand {
-  display: none;
-}
-
 .select.is-fullwidth {
   width: 100%;
 }
