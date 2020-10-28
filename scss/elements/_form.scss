@@ -100,10 +100,6 @@
     &:hover {
       border-color: $control-hover-border;
     }
-
-    &::ms-expand {
-      display: none;
-    }
   }
 
   &.is-fullwidth {
