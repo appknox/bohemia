@@ -27,6 +27,6 @@
   "homepage": "https://github.com/appknox/bohemia#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
